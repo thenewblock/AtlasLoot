@@ -90,7 +90,7 @@ function AtlasLootSetMenu()
 	AtlasLootMenuItem_22.lootpage="WORLDEPICS";
 	AtlasLootMenuItem_22:Show();
 	--Dungeon Set 1/2
-	AtlasLootMenuItem_17_Name:SetText(AL["Tier 0/0.5 Sets"]);
+	AtlasLootMenuItem_17_Name:SetText(AL["Tier 0 Sets"]);
 	AtlasLootMenuItem_17_Extra:SetText("");
 	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Chest_Chain_03");
 	AtlasLootMenuItem_17.lootpage="T0SET";
@@ -578,7 +578,7 @@ function AtlasLootT0SetMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Tier 0/0.5 Sets"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Tier 0 Sets"]);
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 

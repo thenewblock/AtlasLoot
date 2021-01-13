@@ -515,15 +515,15 @@ AtlasLoot_TableNames = {
 	["AQ40Warrior"] = { AL["AQ40 Class Sets"], "AtlasLootSetItems" },
 	["AQ40Paladin"] = { AL["AQ40 Class Sets"], "AtlasLootSetItems" },
 	--Dungeon Set 1/2
-	["T0Druid"] = { BC["Druid"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Hunter"] = { BC["Hunter"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Mage"] = { BC["Mage"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Paladin"] = { BC["Paladin"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Priest"] = { BC["Priest"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Rogue"] = { BC["Rogue"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Shaman"] = { BC["Shaman"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Warlock"] = { BC["Warlock"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-	["T0Warrior"] = { BC["Warrior"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
+	["T0Druid"] = { BC["Druid"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Hunter"] = { BC["Hunter"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Mage"] = { BC["Mage"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Paladin"] = { BC["Paladin"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Priest"] = { BC["Priest"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Rogue"] = { BC["Rogue"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Shaman"] = { BC["Shaman"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Warlock"] = { BC["Warlock"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+	["T0Warrior"] = { BC["Warrior"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
 	--T1Sets
 	["T1Druid"] = { BC["Druid"].." - "..AL["Tier 1 Sets"], "AtlasLootSetItems" },
 	["T1Hunter"] = { BC["Hunter"].." - "..AL["Tier 1 Sets"], "AtlasLootSetItems" },
@@ -612,9 +612,9 @@ AtlasLoot_TableNames = {
 	------------------------
 	
 	--Argent Dawn
-	["Argent1"] = { BF["Argent Dawn"]..": Token Hand-ins", "AtlasLootRepItems" },
-	["Argent2"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
-	["Argent3"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
+	["Argent1"] = { BF["Argent Dawn"].."", "AtlasLootRepItems" },
+	--Added in 1.6  so swap one below ["Argent2"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
+	--Added in 1.3 ["Argent3"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
 	--Bloodsail Buccaneers
 	["Bloodsail1"] = { BF["Bloodsail Buccaneers"], "AtlasLootRepItems" },
 	--Brood of Nozdormu
@@ -1379,16 +1379,16 @@ AtlasLoot_TableNamesBoss = {
 		["AQ40Warrior"] = { AL["AQ40 Class Sets"], "AtlasLootSetItems" },
 		["AQ40Paladin"] = { AL["AQ40 Class Sets"], "AtlasLootSetItems" },
 	},
-	[AL["Tier 0/0.5 Sets"]] = {
-		["T0Druid"] = { BC["Druid"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Hunter"] = { BC["Hunter"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Mage"] = { BC["Mage"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Paladin"] = { BC["Paladin"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Priest"] = { BC["Priest"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Rogue"] = { BC["Rogue"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Shaman"] = { BC["Shaman"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Warlock"] = { BC["Warlock"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
-		["T0Warrior"] = { BC["Warrior"].." - "..AL["Tier 0/0.5 Sets"], "AtlasLootSetItems" },
+	[AL["Tier 0 Sets"]] = {
+		["T0Druid"] = { BC["Druid"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Hunter"] = { BC["Hunter"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Mage"] = { BC["Mage"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Paladin"] = { BC["Paladin"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Priest"] = { BC["Priest"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Rogue"] = { BC["Rogue"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Shaman"] = { BC["Shaman"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Warlock"] = { BC["Warlock"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
+		["T0Warrior"] = { BC["Warrior"].." - "..AL["Tier 0 Sets"], "AtlasLootSetItems" },
 	},
 	[AL["Tier 1 Sets"]] = {
 		["T1Druid"] = { BC["Druid"].." - "..AL["Tier 1 Sets"], "AtlasLootSetItems" },
@@ -1478,9 +1478,9 @@ AtlasLoot_TableNamesBoss = {
 	------------------------
 	[AL["Factions"]] = {
 		--Argent Dawn
-		["Argent1"] = { BF["Argent Dawn"]..": Token Hand-ins", "AtlasLootRepItems" },
-		["Argent2"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
-		["Argent3"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
+		["Argent1"] = { BF["Argent Dawn"].."", "AtlasLootRepItems" },
+		--Added in 1.6 so swap below ["Argent2"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
+		--Added in 1.3 ["Argent3"] = { BF["Argent Dawn"], "AtlasLootRepItems" },
 		--Bloodsail Buccaneers
 		["Bloodsail1"] = { BF["Bloodsail Buccaneers"], "AtlasLootRepItems" },
 		--Brood of Nozdormu

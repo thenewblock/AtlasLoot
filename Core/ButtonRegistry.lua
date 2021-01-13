@@ -18,6 +18,7 @@ local ORANGE = "|cffFF8400";
 
 AtlasLoot_ButtonRegistry = {
 	--WoW Factions
+	--[[ Added in 1.3
 	["Argent1"] = {
 		Title = BF["Argent Dawn"]..": "..AL["Token Hand-Ins"];
 		Next_Page = "Argent2";
@@ -25,6 +26,7 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "REPMENU";
 		Back_Title = AL["Factions"];
 	};
+	--]]
 	["Argent2"] = {
 		Title = BF["Argent Dawn"]..": "..BF["Friendly"].."-"..BF["Honored"];
 		Prev_Page = "Argent1";
@@ -396,47 +398,47 @@ AtlasLoot_ButtonRegistry = {
 	["T0Druid"] = {
 		Title = BC["Druid"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Hunter"] = {
 		Title = BC["Hunter"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Mage"] = {
 		Title = BC["Mage"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Paladin"] = {
 		Title = BC["Paladin"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Priest"] = {
 		Title = BC["Priest"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Rogue"] = {
 		Title = BC["Rogue"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Shaman"] = {
 		Title = BC["Shaman"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Warlock"] = {
 		Title = BC["Warlock"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T0Warrior"] = {
 		Title = BC["Warrior"];
 		Back_Page = "T0SET";
-		Back_Title = AL["Tier 0/0.5 Sets"];
+		Back_Title = AL["Tier 0 Sets"];
 	};
 	["T1Druid"] = {
 		Title = BC["Druid"];
@@ -1170,8 +1172,9 @@ AtlasLoot_ButtonRegistry = {
 		Back_Title = BS["Blacksmithing"];
 		Prev_Page = "SmithingArtisan1";
 		Prev_Title = BS["Blacksmithing"]..": "..AL["Artisan"];
-		Next_Page = "SmithingArtisan3";
-		Next_Title = BS["Blacksmithing"];
+		-- Changed in 1.4
+		Next_Page = "Armorsmith1";
+		Next_Title = BS["Armorsmith"];
 	};
 	["SmithingArtisan3"] = {
 		Title = BS["Blacksmithing"]..": "..AL["Artisan"];
@@ -1283,8 +1286,8 @@ AtlasLoot_ButtonRegistry = {
 		Back_Title = BS["Enchanting"];
 		Prev_Page = "EnchantingArtisan1";
 		Prev_Title = BS["Enchanting"]..": "..AL["Artisan"];
-		Next_Page = "EnchantingArtisan3";
-		Next_Title = BS["Enchanting"]..": "..AL["Artisan"];
+		--Added in 1.3 Next_Page = "EnchantingArtisan3";
+		--Added in 1.3 Next_Title = BS["Enchanting"]..": "..AL["Artisan"];
 	};
 	["EnchantingArtisan3"] = {
 		Title = BS["Enchanting"]..": "..AL["Artisan"];
@@ -1428,8 +1431,9 @@ AtlasLoot_ButtonRegistry = {
 		Back_Title = BS["Leatherworking"];
 		Prev_Page = "LeatherArtisan1";
 		Prev_Title = BS["Leatherworking"]..": "..AL["Artisan"];
-		Next_Page = "LeatherArtisan3";
-		Next_Title = BS["Leatherworking"]..": "..AL["Artisan"];
+		--Changed in 1.3
+		Next_Page = "Dragonscale1";
+		Next_Title = BS["Dragonscale Leatherworking"]..": "..AL["Artisan"];
 	};
 	["LeatherArtisan3"] = {
 		Title = BS["Leatherworking"]..": "..AL["Artisan"];
@@ -1483,13 +1487,14 @@ AtlasLoot_ButtonRegistry = {
 		Title = BS["Mining"];
 		Back_Page = "MININGMENU";
 		Back_Title = AL["Crafting"];
-		Next_Page = "Mining2";
-		Next_Title = BS["Mining"];
+		Next_Page = "Smelting1";
+		Next_Title = BS["Smelting"];
 	};
 	["Mining2"] = {
 		Title = BS["Mining"];
 		Back_Page = "MININGMENU";
 		Back_Title = AL["Crafting"];
+		--Changed in 1.10
 		Next_Page = "Smelting1";
 		Next_Title = BS["Smelting"];
 		Prev_Page = "Mining1";

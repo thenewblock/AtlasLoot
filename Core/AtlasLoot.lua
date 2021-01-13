@@ -1501,7 +1501,6 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				getglobal("AtlasLootItemsFrame_PREV").title = tablebase.Prev_Title;
 			end
 			if tablebase.Back_Page then
-				getglobal("AtlasLootItemsFrame_BACK"):Show();
 				getglobal("AtlasLootItemsFrame_BACK").lootpage = tablebase.Back_Page;
 				getglobal("AtlasLootItemsFrame_BACK").title = tablebase.Back_Title;
 			end
@@ -2288,10 +2287,9 @@ AtlasLoot_DewDropDown = {
 			[1] = { 
 				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
 			},
-			--Added in 1.10
-			--[2] = { 
-				--{ AL["Tier 0/0.5 Sets"], "DungeonSets12", "Submenu" },
-			--},
+			[2] = { 
+				{ AL["Tier 0 Sets"], "DungeonSets12", "Submenu" },
+			},
 			--Added in 1.9
 			--[3] = { 
 				--{ AL["Ruins of Ahn'Qiraj Sets"], "AQ20Sets", "Submenu" },
@@ -2304,7 +2302,7 @@ AtlasLoot_DewDropDown = {
 			--[5] = { 
 				--{ AL["Zul'Gurub Sets"], "ZGSets", "Submenu" },
 			--},
-			[2] = { 
+			[3] = { 
 				{ AL["Tier 1 Sets"], "T1Sets", "Submenu" },
 			},
 			--Added in 1.6
@@ -2334,7 +2332,7 @@ AtlasLoot_DewDropDown = {
 			--[7] = {
 				--{ AL["Tabards"], "Tabards", "Table" },
 			--},
-			[3] = {
+			[4] = {
 				{ AL["World Epics"], "BoEWorldEpics", "Submenu" },
 			},
 		},
@@ -2386,19 +2384,18 @@ AtlasLoot_DewDropDown = {
 			},
 		},
 	},--]]
-	--Disabling because I'm lazy
-	--[4] = {
-		--[AL["Crafting"]] = {
-			--[1] = { { BS["Alchemy"], "Alchemy", "Submenu" }, },
-			--[2] = { { (BS["Blacksmithing"]), "Blacksmithing", "Submenu" }, },
-			--[3] = { { (BS["Enchanting"]), "Enchanting", "Submenu" }, },
-			--[4] = { { (BS["Engineering"]), "Engineering", "Submenu" }, },
-			--[5] = { { (BS["Herbalism"]), "Herbalism1", "Table" }, },
-			--[6] = { { (BS["Leatherworking"]), "Leatherworking", "Submenu" }, },
-			--[7] = { { (BS["Mining"]), "Mining", "Submenu" }, },
-			--[8] = { { (BS["Tailoring"]), "Tailoring", "Submenu" }, },
-			--[9] = { { (BS["Cooking"]), "Cooking", "Submenu" }, },
-			--[10] = { { (BS["First Aid"]), "FirstAid1", "Table" }, },
+	[4] = {
+		[AL["Crafting"]] = {
+			[1] = { { BS["Alchemy"], "Alchemy", "Submenu" }, },
+			[2] = { { (BS["Blacksmithing"]), "Blacksmithing", "Submenu" }, },
+			[3] = { { (BS["Enchanting"]), "Enchanting", "Submenu" }, },
+			[4] = { { (BS["Engineering"]), "Engineering", "Submenu" }, },
+			[5] = { { (BS["Herbalism"]), "Herbalism1", "Table" }, },
+			[6] = { { (BS["Leatherworking"]), "Leatherworking", "Submenu" }, },
+			[7] = { { (BS["Mining"]), "Mining", "Submenu" }, },
+			[8] = { { (BS["Tailoring"]), "Tailoring", "Submenu" }, },
+			[9] = { { (BS["Cooking"]), "Cooking", "Submenu" }, },
+			[10] = { { (BS["First Aid"]), "FirstAid1", "Submenu" }, },
 			--[11] = { { (BS["Poisons"]), "Poisons1", "Table" }, },
 			--[12] = { 
 				--[AL["Crafted Sets"]] = {
@@ -2408,8 +2405,8 @@ AtlasLoot_DewDropDown = {
 				--}, 
 			--},
 			--[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
-		--},
-	--},
+		},
+	},
 };
 
 --This table defines all the subtables needed for the full menu
@@ -2566,7 +2563,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trash Mobs"], "SMCTrash" },
 	},
 	["Scholomance"] = {
-		{ AL["Blood Steward of Kirtonos"], "SCHOLOBlood" },
+		--{ AL["Blood Steward of Kirtonos"], "SCHOLOBlood" },
 		{ BB["Kirtonos the Herald"], "SCHOLOKirtonostheHerald" },
 		{ BB["Jandice Barov"], "SCHOLOJandiceBarov" },
 		--Added in 1.11 { BB["Lord Blackwood"].." ("..AL["Scourge Invasion"]..")", "SCHOLOLordBlackwood" },

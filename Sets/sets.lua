@@ -592,6 +592,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_Frost_IceStorm", "=q10=#t05s3#", "" },
 		{ 0, "", "", "" },
 		{ 22065, "INV_Crown_02", "=q4=Sorcerer's Crown", "=ds=#s1#, #a1#" },
@@ -602,6 +603,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22062, "INV_Belt_08", "=q3=Sorcerer's Belt", "=ds=#s10#, #a1#" },
 		{ 22067, "INV_Pants_06", "=q3=Sorcerer's Leggings", "=ds=#s11#, #a1#" },
 		{ 22064, "INV_Boots_02", "=q4=Sorcerer's Boots", "=ds=#s12#, #a1#" },
+		--]]
 	};
 	T0Priest = {
 		{ 0, "", "", "" },
@@ -620,6 +622,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_Holy_PowerWordShield", "=q9=#t05s5#", "" },
 		{ 0, "", "", "" },
 		{ 22080, "INV_Crown_01", "=q4=Virtuous Crown", "=ds=#s1#, #a1#" },
@@ -630,6 +633,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22078, "INV_Belt_10", "=q3=Virtuous Belt", "=ds=#s10#, #a1#" },
 		{ 22085, "INV_Pants_08", "=q3=Virtuous Skirt", "=ds=#s11#, #a1#" },
 		{ 22084, "INV_Boots_05", "=q4=Virtuous Sandals", "=ds=#s12#, #a1#" },
+		--]]
 	};
 	T0Warlock = {
 		{ 0, "", "", "" },
@@ -648,6 +652,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_Shadow_CurseOfTounges", "=q11=#t05s8#", "" },
 		{ 0, "", "", "" },
 		{ 22074, "INV_Helmet_29", "=q4=Deathmist Mask", "=ds=#s1#, #a1#" },
@@ -658,6 +663,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22070, "INV_Belt_12", "=q3=Deathmist Belt", "=ds=#s10#, #a1#" },
 		{ 22072, "INV_Pants_08", "=q3=Deathmist Leggings", "=ds=#s11#, #a1#" },
 		{ 22076, "INV_Boots_05", "=q4=Deathmist Sandals", "=ds=#s12#, #a1#" },
+		--]]
 	};
 	T0Rogue = {
 		{ 0, "", "", "" },
@@ -676,6 +682,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Ability_BackStab", "=q12=#t05s6#", "" },
 		{ 0, "", "", "" },
 		{ 22005, "INV_Helmet_41", "=q4=Darkmantle Cap", "=ds=#s1#, #a2#" },
@@ -686,6 +693,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22002, "INV_Belt_03", "=q3=Darkmantle Belt", "=ds=#s10#, #a2#" },
 		{ 22007, "INV_Pants_02", "=q3=Darkmantle Pants", "=ds=#s11#, #a2#" },
 		{ 22003, "INV_Boots_08", "=q4=Darkmantle Boots", "=ds=#s12#, #a2#" },
+		--]]
 	};
 	T0Druid = {
 		{ 0, "", "", "" },
@@ -704,6 +712,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_Nature_Regeneration", "=q13=#t05s1#", "" },
 		{ 0, "", "", "" },
 		{ 22109, "INV_Helmet_27", "=q4=Feralheart Cowl", "=ds=#s1#, #a2#" },
@@ -714,6 +723,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22106, "INV_Belt_15", "=q3=Feralheart Belt", "=ds=#s10#, #a2#" },
 		{ 22111, "INV_Pants_08", "=q3=Feralheart Kilt", "=ds=#s11#, #a2#" },
 		{ 22107, "INV_Boots_08", "=q4=Feralheart Boots", "=ds=#s12#, #a2#" },
+		--]]
 	};
 	T0Hunter = {
 		{ 0, "", "", "" },
@@ -732,6 +742,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Ability_Hunter_RunningShot", "=q14=#t05s2#", "" },
 		{ 0, "", "", "" },
 		{ 22013, "INV_Helmet_24", "=q4=Beastmaster's Cap", "=ds=#s1#, #a3#" },
@@ -742,6 +753,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22010, "INV_Belt_28", "=q3=Beastmaster's Belt", "=ds=#s10#, #a3#" },
 		{ 22017, "INV_Pants_03", "=q3=Beastmaster's Pants", "=ds=#s11#, #a3#" },
 		{ 22061, "INV_Boots_Plate_07", "=q4=Beastmaster's Boots", "=ds=#s12#, #a3#" },
+		--]]
 	};
 	T0Shaman = {
 		{ 0, "", "", "" },
@@ -760,6 +772,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_FireResistanceTotem_01", "=q15=#t05s7#", "" },
 		{ 0, "", "", "" },
 		{ 22097, "INV_Helmet_04", "=q4=Coif of The Five Thunders", "=ds=#s1#, #a3#" },
@@ -770,6 +783,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22098, "INV_Belt_16", "=q3=Cord of The Five Thunders", "=ds=#s10#, #a3#" },
 		{ 22100, "INV_Pants_03", "=q3=Kilt of The Five Thunders", "=ds=#s11#, #a3#" },
 		{ 22096, "INV_Boots_Wolf", "=q4=Boots of the The Five Thunders", "=ds=#s12#, #a3#" },
+		--]]
 	};
 	T0Warrior = {
 		{ 0, "", "", "" },
@@ -788,6 +802,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "INV_Shield_05", "=q17=#t05s9#", "" },
 		{ 0, "", "", "" },
 		{ 21999, "INV_Helmet_02", "=q4=Helm of Heroism", "=ds=#s1#, #a4#" },
@@ -798,6 +813,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 21994, "INV_Belt_34", "=q3=Belt of Heroism", "=ds=#s10#, #a4#" },
 		{ 22000, "INV_Pants_04", "=q3=Legplates of Heroism", "=ds=#s11#, #a4#" },
 		{ 21995, "INV_Boots_Plate_03", "=q4=Boots of Heroism", "=ds=#s12#, #a4#" },
+		--]]
 	};
 	T0Paladin = {
 		{ 0, "", "", "" },
@@ -816,6 +832,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		--[[ Added in 1.10
 		{ 0, "Spell_Holy_SealOfMight", "=q16=#t05s4#", "" },
 		{ 0, "", "", "" },
 		{ 22091, "INV_Helmet_08", "=q4=Soulforge Helm", "=ds=#s1#, #a4#" },
@@ -826,6 +843,7 @@ AtlasLoot_Data["AtlasLootSetItems"] = {
 		{ 22086, "INV_Belt_11", "=q3=Soulforge Belt", "=ds=#s10#, #a4#" },
 		{ 22092, "INV_Pants_04", "=q3=Soulforge Legplates", "=ds=#s11#, #a4#" },
 		{ 22087, "INV_Boots_Plate_03", "=q4=Soulforge Boots", "=ds=#s12#, #a4#" },
+		--]]
 	};
 	ZGMage = {
 		{ 0, "", "", "" },

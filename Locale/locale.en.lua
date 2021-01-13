@@ -218,7 +218,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["ZG Enchants"] = true;
 	["Tier 0.5"] = true;
 	["Tier 0.5 Summonable"] = true;
-	["Tier 0/0.5 Sets"] = true;
+	["Tier 0 Sets"] = true;
 	["Tier 1 Sets"] = true;
 	["Tier 2 Sets"] = true;
 	["Tier 3 Sets"] = true;
